@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MovieFeed</string>
+    <string name="placeholder_movie">50 sombras</string>
+    <string name="placeholder_country">dfgf</string>
+</resources>

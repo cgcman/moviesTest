@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="?android:selectableItemBackground">
+
+    <TextView
+        android:id="@+id/text_view_fragment_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:layout_gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:text="@string/placeholder_movie">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_view_fragment_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:layout_gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="15sp"
+        android:text="@string/placeholder_country">
+
+    </TextView>
+
+</LinearLayout>
